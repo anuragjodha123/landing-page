@@ -120,7 +120,7 @@ button {
     margin: 0 auto;
     height: 200px;
     width: 200px;
-    border: 3px rgb(74, 74, 252) solid;
+    border: 3px #3882F6 solid;
     border-radius: 10px;
 }
 
@@ -154,3 +154,21 @@ button {
     align-self: flex-end;
 }
 
+/* CTA Section */
+
+.popup {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.popup button{
+    border: #E5E7EB 2px solid;
+}
+
+.popup div h3, .popup p {
+    margin: 0;
+}
