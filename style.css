@@ -156,13 +156,19 @@ button {
 
 /* CTA Section */
 
-.popup {
-    background-color: #3882F6;
-    padding: 50px;
-    border-radius: 10px;
+.CTA {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;   
+}
+.popup {
+    background-color: #3882F6;
+    padding: 50px 200px;
+    border-radius: 10px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .popup button{
@@ -171,4 +177,15 @@ button {
 
 .popup div h3, .popup p {
     margin: 0;
+}
+
+/* Footer section */
+
+footer {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
