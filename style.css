@@ -2,20 +2,22 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #1F2937;
-    width: 70vw;
     color: #F9FAF8;
     margin: 0 auto;
     font-family: Roboto;    
 }
 
+header, body > div, footer {
+    padding: 0 200px;
+}
+
 /* Header styles */
 
 header {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
     margin: 0;
 }
 
@@ -43,14 +45,18 @@ header .left {
 /* Hero section styles */
 
 .hero {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
-    padding: 70px 0;
 }
 
+body > div {
+    padding-top:70px;
+    padding-bottom:70px;
+}
 .hero .left {
     width: 400px;
     padding: 0;
@@ -88,4 +94,16 @@ button {
     width: 700px;
     height: 300px;
     border-radius: 10px;
+}
+
+/* Random info section */
+
+.random-info {
+    background-color: white;
+}
+
+.random-info h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
