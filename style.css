@@ -4,27 +4,35 @@ body {
     margin: 0;
     color: #F9FAF8;
     margin: 0 auto;
-    font-family: Roboto;    
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
 }
 
 header, body > div, footer {
-    padding: 0 200px;
+    padding: 0 15vw;
 }
 
 /* Header styles */
 
 header {
+    padding-top: 10px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin: 0;
+    gap: 10px;
 }
 
 header  ul {
     display: flex;
     list-style: none;
     gap:20px;
+    padding: 0;
+    margin:0;
 }
 
 .right ul li a {
@@ -101,9 +109,8 @@ button {
 .random-info {
     background-color: white;
     color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    padding: 40px 20vw;
 }
 
 .random-info h2{
@@ -112,12 +119,12 @@ button {
 }
 
 .carousel > div {
+    margin: 0 auto;
     width: 200px;
     text-align: center;
 }
 
 .carousel > div div{
-    margin: 0 auto;
     height: 200px;
     width: 200px;
     border: 3px #3882F6 solid;
@@ -125,8 +132,10 @@ button {
 }
 
 .carousel {
-    width: 1000px;
+    text-align:center;
     display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
     justify-content: space-between;
     align-items: center;
 }
@@ -138,7 +147,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quotation h1 {
@@ -159,16 +169,17 @@ button {
 .CTA {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 .popup {
     background-color: #3882F6;
-    padding: 50px 200px;
+    padding: 50px 10vw;
     border-radius: 10px;
     display: flex;
-    gap: 200px;
+    flex-wrap: wrap;
+    gap: 10vw;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .popup button{
